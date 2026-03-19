@@ -7,26 +7,20 @@
 <title>my index page</title>
 <style>
 body{
-    background: #212339;
+    background: #373a3e;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; 
 }
 h1{
-    color: #86c252;
+    color: #b2e50f;
 }
 p{
-    color: darkblue;
+    color: #0f355f;
 }
 a{
-    color: limegreen;
-}
-.hi{
-    color: #92014a;
-}
-#lol{
-    color: #f86535;
+    color: #b2e50f;
 }
 #exciting {
-  background: linear-gradient(to bottom, #ffe8d4, #f69d3c);
+  background: linear-gradient(to bottom, #e8d8c9, #f3701e);
   border: 1px solid dimgrey;
   padding: 10px;
   border-radius: 10px;
@@ -37,6 +31,51 @@ a{
   content: "ℹ️";
   margin-right: 5px;
 }
+ul#navlist
+{
+width: 158px;
+width: 160px;
+width: 158px;
+padding: 0px;
+border: 1px solid #808080;
+border-top: 0px;
+margin: 0px;
+font: bold 12px verdana,helvetica,arial,sans-serif;
+background: #808080;
+}
+
+ul#navlist li
+{
+list-style: none;
+margin: 0px;
+border: 0px;
+border-top: 1px solid #808080;
+}
+
+ul#navlist li a
+{
+display: block;
+width: 122px;
+width: 158px;
+width: 122px;
+padding: 4px 8px 4px 8px;
+border: 0px;
+border-left: 20px solid #aaaabb;
+background: #ccccdd;
+text-decoration: none;
+text-align: right;
+}
+
+ul#navlist li a:link { color: #666677; }
+div#navcontainer li a:visited { color: #666677; }
+
+ul#navlist li a:hover
+{
+border-color: #f3701e;
+color: #ffffff;
+background: #000d33;
+}
+
 </style>
 </head>
             
@@ -44,19 +83,19 @@ a{
 
 <h1>Nor's Site</h1>
 
-<p class="hi"><span id = "lol">hihihihihih</span>iiiiiiiiii</p>
     
     <p id="exciting">A directory of my <strong>links</strong></p>
 
+        <div id="navcontainer">
+            <ul id="navlist">
+            <li id="active"><a href="text.html" id="current">Text Page</a></li>
+            <li><a href="boxes.html">Boxes Page</a></li>
+            <li><a href="quotes.html">Quotes Page</a></li>
+            <li><a href="#">Item four</a></li>
+            <li><a href="#">Item five</a></li>
+            </ul>
+            </div>
 
-
-
-
-<ul>
-    <li><a href="text.html">text page</a></li>
-    <li><a href="boxes.html">box page</a></li>
-    <li><a href="quotes.html">quotes page</a></li>
-</ul>
 
 </body>
 </html>

@@ -13,33 +13,35 @@
     div {
     width: 200px;
     height: 200px;
-    background: white;
+    background-image: url("pfp.jpg");
     margin: 50px;
     }
 
     #static {
-        background: red;
         position: static;
     }
 
     #sticky{
-        background: orange;
         position: sticky;
     }
 
     #relative{
-        background: yellow;
         position: relative;
+        left: 100px;
+        top: -100px;
+        z-index: -5;
     }
 
     #fixed{
-        background: green;
         position: fixed;
+        left: 200px;
+        top: 0;
     }
 
     #absolute{
-        background: blue;
         position: absolute;
+        left: 300;
+        bottom: -300;
     }
 
 </style>
